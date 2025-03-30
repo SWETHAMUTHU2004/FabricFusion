@@ -1,0 +1,61 @@
+/* About Us Page Styles */
+.about {
+    padding: 40px 20px;
+    background-color: #fff;
+    margin-top: 20px;
+    text-align: center;
+}
+
+.about h2 {
+    font-size: 32px;
+    margin-bottom: 20px;
+}
+
+.about p {
+    font-size: 18px;
+    line-height: 1.6;
+    margin-bottom: 30px;
+}
+
+.about h3 {
+    font-size: 28px;
+    margin-top: 40px;
+    margin-bottom: 20px;
+}
+
+.about ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.about ul li {
+    font-size: 18px;
+    margin: 10px 0;
+    text-align: left;
+    max-width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.about ul li strong {
+    color: #28a745;
+}
+
+/* Responsive Design for Mobile */
+@media (max-width: 768px) {
+    .about {
+        padding: 20px;
+    }
+
+    .about h2 {
+        font-size: 28px;
+    }
+
+    .about h3 {
+        font-size: 24px;
+    }
+
+    .about ul li {
+        font-size: 16px;
+    }
+}
